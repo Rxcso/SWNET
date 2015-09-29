@@ -2,7 +2,6 @@
 
 @{
     ViewBag.Title = "Register";
-    ViewBag.Placeholder = "nombre@dominio.com";
 }
 <link href="~/css/estilos-index1.css" rel="stylesheet" />
 
@@ -20,11 +19,9 @@
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-
     <div class="form-horizontal">
         <h3>Ingrese sus Datos</h3>
         <hr />
-        <h1>HOLIWI</h1>
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="row form-group">
             @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-4" })
