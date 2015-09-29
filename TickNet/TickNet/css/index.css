@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{width:  900px;    
+    background-color: lightskyblue}
+#wraper{background-color: beige}
+header{height: 80px;}
+.h{display: inline-block;vertical-align: top}
+#logo{height: 100%; 
+        width: 730px;
+        background-image: url(../images/teleticket.gif);
+        background-repeat: round;}
+
+#login{height: 80px;width: 80px; background-image: url(../images/login.png);background-repeat: round}
+#search{outline: none; height: 80px;width: 80px; background-image: url(../images/search.png);background-repeat: round}
+#search:hover, #login:hover{border: 2px solid blue}
+
+/*barra de busqueda*/
+#searchName{display: none}
+#searchNameButton, #eventName{vertical-align: top}
+#eventName{width: 800px;height: 50px;font-size: 30px}
+#searchNameButton{width: 80px;height: 50px}
+
+/*Barra de navegacion*/
+li{display: inline-block; cursor: pointer;  vertical-align: top;          
+            height: 35px;}
+#menu{height: 35px}
+#menu li{width: 130px;
+    height: 35px; 
+    background-color: darkblue; 
+    padding: 10px; 
+    margin-right: -5px;
+}
+a{text-decoration: none; color: white;}
+#serchByFilter:hover, a:hover{font-weight: bold}
+
+/*Seccion principal*/
+section{height: 440px}
+#busqueda{height: 40px;padding: 8px}
+span{margin-left: 5px}
+.fecha{margin-left: 5px}
+#serchByFilter{height: 25px; vertical-align: top; width: 75px;text-align: center;padding: 5px;background-color: darkblue;color: white}
+
+
+
+#destacados{height: 220px;
+    background-image: url(../images/destacado.png);
+    background-repeat: round;
+    border: 5px solid darkblue;
+}
+.etiqueta{margin-top: 2px;
+    height: 30px;
+    color: white;
+    background-color: darkblue;
+    padding-top: 7px;
+    padding-left: 10px}
+#et2{ text-align:right;padding-right: 15px}
+#et2 a{cursor: pointer}
+#eventsGrid{padding: 8px}
+.event{width: 100%;height: 85px;border: 2px solid darkblue;margin-bottom: 2px}
+.eventImg{width: 150px;height: 81px}
+.eventDetails{width: 580px;height: 85px}
+.eventState{height: 85px;width: 139px;}
+.eventImg, .eventDetails, .eventState{display: inline-block;vertical-align: top}
+.stateButton{width: 80%;background-color: darkblue;text-align: center;padding-top: 9px;margin-top: 25px}
+
+#img1{background-image: url(../images/naufragos.jpg)}
+#img2{background-image: url(../images/guerrasexos.jpg)}
+#img3{background-image: url(../images/teadoro.jpg)}
+#img4{background-image: url(../images/tomas.jpg)}
+
+/*footer*/
+footer{height: 50px;text-align: center;color: white;background-color: darkblue;padding-top: 15px}

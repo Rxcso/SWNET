@@ -1,0 +1,154 @@
+﻿@{
+    ViewBag.Title = "Detalle del Evento";
+}
+
+<div class="container-fluid">
+    <div class="col-md-5">
+        <ol class="breadcrumb">
+            <li><a href="@Url.Action("Index","Home")">Inicio</a></li>
+            <li class="active">Evento xxx</li>
+        </ol>
+    </div>
+</div>
+<div class="container ">
+    <!--la parte importante-->
+    <div id="contenido" class="col-md-8 borde">
+        <div id="detalles" class="row">
+            <div class="col-md-6">
+                <div id="fila" class="row">
+
+                    <div class="thumbnail">
+                        <img class="event" src="http://lorempixel.com/400/250/nightlife/" alt="">
+                        <div class="caption" style="text-align:left">
+                            <h1>NOMBRE DEL EVENTO</h1>
+                            <p><strong><u>Fechas:</u></strong> Del 12 al 15 de Septiembre</p>
+                            <p><strong><u>Dirección:</u></strong> Av. Los geranios 3023, VMT, Lima</p>
+                            <p><strong><u>Región:</u></strong> Lima</p>
+                            <p><strong><u>Ofertas:</u></strong> 20% dcto. con tarjeta VISA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div id="fila" class="row">
+                    <div class="thumbnail" style="text-align:justify">
+                        <p><strong><u>Tipo:</u></strong> Evento</p>
+                        <p><strong><u>Categoría:</u></strong> Entretenimiento</p>
+                        <p><strong><u>Descripción:</u></strong></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro nostrum aspernatur, nisi esse inventore. Nobis reprehenderit voluptates facilis unde adipisci dolorum ratione natus laboriosam beatae, at, nesciunt ut odit alias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus veniam iusto excepturi necessitatibus libero, deserunt corporis repudiandae aliquid suscipit, eius quibusdam, dolorem a fuga, assumenda dicta. Fugit ex quasi nesciunt! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi animi quisquam iusto sit fuga maiores doloremque ipsam magnam necessitatibus culpa consequuntur, corporis voluptatum sunt laborum, corrupti earum aliquid, in error!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipique consectetur quidem ea laboriosam aperiam quia deleniti nihil placeat officia? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nobis vero nihil praesentium quis minima, aperiam, illo fugiat totam. Eius excepturi similique deleniti eligendi, nisi fugiat quos quo deserunt ad!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tarifas" class="row">
+            <div class="thumbnail">
+                <div class="container-fluid">
+                    <h4><u>Boletos y tarifas</u></h4>
+                </div>
+                <img class="event" src="~/images/zonass.jpg" alt="zonas de evento xxx">    <br>
+                <div class="caption" style="text-align:justify">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    Fecha:
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="date" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    Función:
+                                </div>
+                                <div class="col-md-6">
+                                    <select name="" class="form-control">
+                                        <option value="">Seleccione</option>
+                                        <option value="">4:00 pm</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    Tarifa:
+                                </div>
+                                <div class="col-md-6">
+                                    <select name="" class="form-control">
+                                        <option value="">Seleccione</option>
+                                        <option value="">GENERAL A - S/.50</option>
+                                        <option value="">GENERAL B - S/.50</option>
+                                        <option value="">GENERAL C - S/.50</option>
+                                        <option value="">VIP A - S/.200</option>
+                                        <option value="">VIP B - S/.200</option>
+                                        <option value="">VIP C - S/.150</option>
+                                        <option value="">VIP D - S/.150</option>
+                                        <option value="">VIP E - S/.150</option>
+                                        <option value="">PREFERENCIAL A - S/.80</option>
+                                        <option value="">PREFERENCIAL B - S/.80</option>
+                                        <option value="">PREFERENCIAL C - S/.70</option>
+                                        <option value="">PREFERENCIAL D - S/.70</option>
+                                        <option value="">MOMENTOS CREDOMATIC - S/.300</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    Cantidad de entradas:
+                                </div>
+                                <div class="col-md-6">
+                                    <select name="" class="form-control">
+                                        <option value="">Seleccione</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                        <option value="">5</option>
+                                        <option value="">6</option>
+                                        <option value="">7</option>
+                                        <option value="">8</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <br>
+                                <div class="col-md-6">
+                                    <a href="mi_carrito_compras.html" class="btn btn-success pull-right ">Agregar al carrito <span class="glyphicon glyphicon-shopping-cart"></span></a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a onclick="reservaExitosa()" href="buscar_reserva(cliente).html" class="btn btn-primary pull-right ">Reservar <span class="glyphicon glyphicon-save"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div id="comentarios" class="row">
+            <div class="thumbnail">
+                <div class="caption" style="text-align:justify">
+                    <div class="container-fluid">
+                        <h4><u>Comentarios</u></h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <input type="text" class="form-control" placeholder="Escribe un comentario de este evento">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script>
+    function reservaExitosa() {
+        alert("Reserva exitosa, tiene hasta el final del día para pagarla");
+    }
+
+</script>
