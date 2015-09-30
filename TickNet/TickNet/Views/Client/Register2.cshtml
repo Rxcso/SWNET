@@ -1,0 +1,278 @@
+﻿
+@{
+    ViewBag.Title = "Registrese";
+}
+
+<div class="container-fluid">
+    <div class="col-md-5">
+        <ol class="breadcrumb">
+            <li><a href="@Url.Action("Index","Home")">Inicio</a></li>
+            <li class="active">Registrarse</li>
+        </ol>
+    </div>
+</div>
+
+<div class="container">
+    <div class="col-md-7">
+        <h3>Datos de ingreso</h3><br>
+        <div class="row form-group">
+            <label for="idEvento" class="control-label col-md-4">Correo Electronico:</label>
+            <div class="col-md-8">
+                <input id="correo" type="text" class="form-control" placeholder="pepito@dominio.com">
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <label for="nombreEvento" class="control-label col-md-4">Contraseña:</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <label for="nombreEvento" class="control-label col-md-4">Confirmar contraseña:</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control">
+            </div>
+        </div><br>
+
+        <h3>Datos personales</h3><br>
+        <div class="row form-group">
+            <label for="idEvento" class="control-label col-md-4">Nombres:</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control" placeholder="">
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <label for="nombreEvento" class="control-label col-md-4">Apellido paterno:</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <label for="nombreEvento" class="control-label col-md-4">Apellido materno:</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <label for="nombreEvento" class="control-label col-md-4">Tipo de Documento:</label>
+            <div class="col-md-8">
+                <select name="" class="form-control">
+                    <option value="">DNI</option>
+                    <option value="">Carnet de Extranjeria</option>
+                    <option value="">Pasaporte</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <label for="nombreEvento" class="control-label col-md-4">Numero de Documento:</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <label for="nombreEvento" class="control-label col-md-4">Fecha de nacimiento:</label>
+            <div class="col-md-2">
+                <select name="" class="form-control">
+                    <option value="">Seleccionar</option>
+                    <option value="">01</option>
+                    <option value="">02</option>
+                    <option value="">03</option>
+                    <option value="">04</option>
+                    <option value="">05</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select name="" class="form-control">
+                    <option value="">Seleccionar</option>
+                    <option value="">Enero</option>
+                    <option value="">Febrero</option>
+                    <option value="">Marzo</option>
+                    <option value="">Abril</option>
+                    <option value="">Mayo</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select name="" class="form-control">
+                    <option value="">Seleccionar</option>
+                    <option value="">2015</option>
+                    <option value="">2014</option>
+                    <option value="">2013</option>
+                    <option value="">2012</option>
+                    <option value="">2011</option>
+                </select>
+            </div>
+        </div><br>
+
+        <h3>Ubicación</h3><br>
+        <div class="row form-group">
+            <label for="idEvento" class="control-label col-md-4">Direccion:</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control" placeholder="N.666 Urb. Algun lugar ">
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <label for="nombreEvento" class="control-label col-md-4">Departamento:</label>
+            <div class="col-md-8">
+                <select name="" class="form-control">
+                    <option value="">Lima</option>
+                    <option value="">Cusco</option>
+                    <option value="">Arequipa</option>
+                    <option value="">Iquitos</option>
+                    <option value="">Madre de diós</option>
+                    <option value="">Tacna</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <label for="nombreEvento" class="control-label col-md-4">Provincia:</label>
+            <div class="col-md-8">
+                <select name="" class="form-control">
+                    <option value="">Lima</option>
+                    <option value="">Barranca</option>
+                    <option value="">Huacho</option>
+                    <option value="">Cañete</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <label for="nombreEvento" class="control-label col-md-4">Distrito:</label>
+            <div class="col-md-8">
+                <select name="" class="form-control">
+                    <option value="">Seleccionar</option>
+                    <option value="">San miguel</option>
+                    <option value="">Breña</option>
+                    <option value="">Cercado de lima</option>
+                    <option value="">Surco</option>
+                    <option value="">San Isidro</option>
+                    <option value="">San borja</option>
+                </select>
+            </div>
+        </div>
+
+
+
+        <div class="row form-group">
+            <label for="nombreEvento" class="control-label col-md-4">Teléfono movil:</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control">
+            </div>
+        </div><br>
+
+
+        <h3>Seleccione sus preferencias</h3>
+        <div class="row form-group">
+            <div class="col-md-6 col-sm-6">
+                <div class="checkbox">
+                    <label><input type="checkbox" value="">Teatros</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="">Conciertos</label>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+                <div class="checkbox">
+                    <label><input type="checkbox" value="">Deportes</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="">festivales</label>
+                </div>
+            </div>
+        </div><br><br>
+
+
+        <div style="text-align: center">
+            <a href="index1.html" class="btn btn-primary btn-lg" data-dismiss="modal" aria-hidden="true">Aceptar </a>
+            <a href="index1.html" class="btn btn-danger btn-lg" data-dismiss="modal" aria-hidden="true">Salir <span class="glyphicon glyphicon-log-out"></span> </a>
+        </div><br>
+
+        <div class="inline" style="text-align: center">
+            <label>Al registrarse usted esta aceptando nuestros </label>
+            <a href="#">Terminos y Condiciones</a>
+        </div>
+
+    </div>
+
+    <!--LOS EVENTOS DESTACADOS-->
+    <div class="col-md-5 ">
+        <div id="carousel-1" class="carousel slide" data-ride="carousel">
+            <!--indicadores primero-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-1" data-slide-to="1"></li>
+                <li data-target="#carousel-1" data-slide-to="2"></li>
+                <li data-target="#carousel-1" data-slide-to="3"></li>
+                <li data-target="#carousel-1" data-slide-to="4"></li>
+                <li data-target="#carousel-1" data-slide-to="5"></li>
+            </ol>
+            <!--Contenedor de los slide-->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="verEvento.html"><img src="images/arjona.jpg" width="1200px" class="img-responsive" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="verEvento.html"><img src="images/bruta.jpg" width="1200px" class="img-responsive" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="verEvento.html"><img src="images/chino.jpg" width="1200px" class="img-responsive" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="verEvento.html"><img src="images/disco.jpg" width="1200px" class="img-responsive" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="verEvento.html"><img src="images/katyperry.jpg" width="1200px" class="img-responsive" alt=""></a>
+                </div>
+                <div class="item">
+                    <a href="verEvento.html"><img src="images/fiesta.jpg" width="1200px" class="img-responsive" alt=""></a>
+                </div>
+            </div>
+            <!--Controles-->
+            <a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </a>
+            <a href="#carousel-1" class="right carousel-control" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+<script>
+    function verEvento() {
+        window.open("ver_evento.html", "_self");
+    }
+    function buscar() {
+        window.open("index1.html", "_self");
+    }
+    function ingresar() {
+        //            document.getElementById("titulo1").innerHTML="Eventos recomendados para tí";
+        //            document.getElementById("logIn").style.display="none";
+        //            document.getElementById("logOut").style.display="inline-block";
+        //            document.getElementById("intranet").style.visibility="hidden";
+        //
+        //            $('#logInCliente').modal('hide');
+        window.open("mi_cuenta.html", "_self");
+    }
+</script>
+<!--librerias-->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>

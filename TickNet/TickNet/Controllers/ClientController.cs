@@ -26,5 +26,17 @@ namespace TickNet.Controllers
             }
             return View(model);
         }
+
+        public ActionResult Register2()
+        {
+            return View();
+        }
+        [HttpPost]
+        [AllowAnonymous]
+        public ActionResult Register2(FormCollection collection)
+        {
+            String correo = collection["correo"];
+            return View();
+        }
     }
 }

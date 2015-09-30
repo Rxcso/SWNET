@@ -295,6 +295,7 @@
     <Content Include="Views\Shared\_LayoutPersonal.cshtml" />
     <Content Include="Views\Event\ViewEvent.cshtml" />
     <Content Include="Views\Client\Register.cshtml" />
+    <Content Include="Views\Client\Register2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
