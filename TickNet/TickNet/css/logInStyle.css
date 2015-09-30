@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{width:  900px;    
+    background-color: lightskyblue}
+#wraper{background-color: beige}
+header{height: 80px;}
+.h{display: inline-block;vertical-align: top}
+#logo{height: 100%; 
+        width: 730px;
+        background-image: url(../images/teleticket.gif);
+        background-repeat: round;}
+
+#login{height: 80px;width: 80px; background-image: url(../images/login.png);background-repeat: round}
+#search{outline: none; height: 80px;width: 80px; background-image: url(../images/search.png);background-repeat: round}
+#search:hover, #login:hover{border: 2px solid blue}
+
+/*barra de busqueda*/
+#searchName{display: none}
+#searchNameButton, #eventName{vertical-align: top}
+#eventName{width: 800px;height: 50px;font-size: 30px}
+#searchNameButton{width: 80px;height: 50px}
+
+/*Barra de navegacion*/
+nav{height: 300px}
+li{display: inline-block; cursor: pointer;  vertical-align: top;          
+            height: 35px;}
+#menu{height: 35px}
+#menu li{width: 130px;
+    height: 35px; 
+    background-color: darkblue; 
+    padding: 10px; 
+    margin-right: -5px;
+}
+#menu a{text-decoration: none; color: white;}
+
+
+/*Seccion busqueda de eventos*/
+#busqueda{height: 40px;padding: 8px}
+span{margin-left: 5px}
+.fecha{margin-left: 5px}
+#serchByFilter{height: 25px; 
+    vertical-align: top; 
+    width: 75px;
+    text-align: center;
+    padding: 5px;
+    background-color: darkblue;
+    color: white}
+#serchByFilter:hover, a:hover{font-weight: bold}
+
+/*barra de navegacion*/
+.titulo{height: 50px;background-color: darkblue;color: white;padding: 10px}
+.link{color: white;text-decoration: none}
+.link:hover{text-decoration: underline}
+
+/*Seccion principal*/
+section{margin: 0 15px ;height: 440px;padding: 15px}
+section form{display: inline-block;
+    width: 47%;
+    height: 300px;
+    vertical-align: top;
+    border: 2px solid darkblue;
+    margin-left: 15px;
+    padding: 5px
+}
+img{margin-left: 145px;
+    margin-top: 15px;
+    border: 2px solid darkblue}
+#oldUser *, #newUser *{margin-bottom: 10px}
+#emailText,#password{width: 200px}
+#password{margin-left: 48px}
+.button{margin-left: 140px;color: white;background-color: darkblue;height: 30px;width: 110px;margin-bottom: 0}
+#forgotPassword{margin-left: 140px; font-size: 12px;}
+#newe{margin-left: 145px;}
+#register{margin-top: 43px}
+
+/*footer*/
+footer{height: 50px;text-align: center;color: white;background-color: darkblue;padding-top: 15px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
