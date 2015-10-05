@@ -10,7 +10,7 @@ namespace TickNet.Controllers
     {
         public ActionResult Index()
         {
-            throw new Exception("Test Log");
+            //throw new Exception("Test Log");
             return View();
         }
 

@@ -181,6 +181,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ClientController.cs" />
+    <Compile Include="Controllers\CuentaController.cs" />
     <Compile Include="Controllers\EventController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -199,6 +200,8 @@
     <Compile Include="Data\Comentarios.cs">
       <DependentUpon>Datos.tt</DependentUpon>
     </Compile>
+    <Compile Include="Data\CuentaDAO.cs" />
+    <Compile Include="Data\Cuentas.cs" />
     <Compile Include="Data\CuentaUsuario.cs">
       <DependentUpon>Datos.tt</DependentUpon>
     </Compile>
@@ -292,6 +295,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Client.cs" />
+    <Compile Include="Models\CuentaUsuarioModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -422,6 +426,8 @@
     <Content Include="Views\Event\ViewEvent.cshtml" />
     <Content Include="Views\Client\Register.cshtml" />
     <Content Include="Views\Client\Register2.cshtml" />
+    <Content Include="Views\Cuenta\Index.cshtml" />
+    <Content Include="Views\Cuenta\crearusuario.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
